@@ -25,6 +25,18 @@ Run the executable to compute the tag's position
 ./trilateration
 ```
 
+#### Example Setup: 
+
+```
+ const int numAnchors = 4;
+    float x_anchors[numAnchors] = {0, 4, 2, 1};
+    float y_anchors[numAnchors] = {0, 0, 4, 1};
+    float z_anchors[numAnchors] = {0, 0, 0, 1};
+    float r[numAnchors] = {2.828, 2.828, 2, 1.732};
+```
+
+
+
 ## Next Steps? 
 
 The next steps of the project using this algorithm: 
