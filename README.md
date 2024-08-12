@@ -29,6 +29,6 @@ Run the executable to compute the tag's position
 
 The next steps of the project using this algorithm: 
 
-##Real-Time Data Integration
+### Real-Time Data Integration
 
 To enable real-time position updates, integrate the trilateration algorithm with live sensor data. Configure sensors to provide frequent distance measurements and use efficient communication methods to transmit this data to your system. Implement real-time processing to continuously update the tag's position and visualize it dynamically on a web interface or graphical display.
