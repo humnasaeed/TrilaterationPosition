@@ -35,10 +35,6 @@ Run the executable to compute the tag's position
     float r[numAnchors] = {2.828, 2.828, 2, 1.732};
 ```
 
-## Algorithm Computations: 
-
-to finish.
-
 ## Next Steps? 
 
 The next steps of the project using this algorithm: 
