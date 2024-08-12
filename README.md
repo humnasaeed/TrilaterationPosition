@@ -28,7 +28,7 @@ Run the executable to compute the tag's position
 #### Example Setup: 
 
 ```
- const int numAnchors = 4;
+    const int numAnchors = 4;
     float x_anchors[numAnchors] = {0, 4, 2, 1};
     float y_anchors[numAnchors] = {0, 0, 4, 1};
     float z_anchors[numAnchors] = {0, 0, 0, 1};
