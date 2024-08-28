@@ -53,7 +53,7 @@ This Python Turtle script visualizes the calculated tag position on a 2D grid in
 ## How it Works? 
 
 1. **Real-Time Position Tracking:** The script continuously reads a local file (tag_position.txt), where the tag’s x and y coordinates are stored. These coordinates are then updated on a 2D grid.
-2. **Dynamic Visualization:** The program operates in a constant loop, ensuring that the tag’s position is updated in real-time as new data becomes available.
+2. **Dynamic Visualization:** The program operates in a constant loop, ensuring that the tag’s position is updated in real time as new data becomes available.
 3. **Coordinate Adjustment:** The script adjusts the coordinates to align with the graphical grid, positioning the origin (0, 0) at the upper-right corner of the layout.
 
 
@@ -73,10 +73,10 @@ Adjust the `adjust_coordinates` function and fine-tune the placement on the grid
 
 ## Next Steps? 
 
-# Integration with Trilateration: 
+### Integration with Trilateration: 
 
 To fully integrate this with the trilateration algorithm, feed the output coordinates from the algorithm into the Turtle graphics script. This is done using the `tag_position.txt` file created by the trilateration algorithm, and read by the Trutle algorithm. The integration of the two can be improved to be more efficient and will allow real-time updates of the tag’s position on the graphical grid.
 
-# Effecient Floor Plan Implementation
+### Efficient Floor Plan Implementation
 
 The current method of uploading and adjusting the floor plan is hard-coded. Future improvements could include more dynamic ways to handle different floor plans and coordinate systems to develop maintainable code.
