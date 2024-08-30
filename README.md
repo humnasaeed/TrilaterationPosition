@@ -27,6 +27,8 @@ Run the executable to compute the tag's position
 ./trilateration
 ```
 
+(Running the code in Visual Studio Code is much simpler, more information can be found here: [https://code.visualstudio.com/docs/languages/cpp](url)) 
+
 #### Example Setup: 
 
 ```
